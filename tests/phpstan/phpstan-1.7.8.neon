@@ -4,4 +4,4 @@ parameters:
   ignoreErrors:
     - '#Return typehint of method Ps_Shoppingcart\:\:getPresentedCart\(\) has invalid type CartLazyArray\.#'
     - "#Access to offset 'products' on an unknown class CartLazyArray\\.#"
-    - '#Method Ps_Shoppingcart\:\:getPresentedCart\(\) should return CartLazyArray but returns array\.#' 
+    - '#Method Ps_Shoppingcart\:\:getPresentedCart\(\) should return CartLazyArray but returns array\.#'
