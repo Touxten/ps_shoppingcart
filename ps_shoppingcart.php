@@ -101,7 +101,8 @@ class Ps_Shoppingcart extends Module implements WidgetInterface
      * Provides an already presented object from the context if set.
      * If not, runs the presenter.
      *
-     * @return CartLazyArray
+     * @return array|CartLazyArray
+     * @phpstan-ignore return.type
      */
     private function getPresentedCart()
     {
