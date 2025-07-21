@@ -1,5 +1,5 @@
 includes:
-	- %currentWorkingDirectory%/tests/phpstan/phpstan.neon
+  - %currentWorkingDirectory%/tests/phpstan/phpstan.neon
 parameters:
   ignoreErrors:
-    - '#Return typehint of method Ps_Shoppingcart\:\:getPresentedCart\(\) has invalid type CartLazyArray\.'
+    - '#Return typehint of method Ps_Shoppingcart\:\:getPresentedCart\(\) has invalid type CartLazyArray\.#'
