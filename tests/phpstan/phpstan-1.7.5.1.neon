@@ -3,3 +3,4 @@ includes:
 parameters:
   ignoreErrors:
     - '#Return typehint of method Ps_Shoppingcart\:\:getPresentedCart\(\) has invalid type CartLazyArray\.#'
+    - '#Access to offset \'products\' on an unknown class CartLazyArray\. #'
